@@ -129,9 +129,13 @@ VITE_AI_URL=http://localhost:8000
 ## 👥 Project Team
 
 **Project Guide** : Prof. Dr. Varsha Shah
+
 **Shaikh Haniya Asad** : Team Leader
+
 **Naik Salima Irshad** 
+
 **Nadankar Sakshi Tanaji** 
+
 **Shaikh Iqra Bano** 
 
 ---
