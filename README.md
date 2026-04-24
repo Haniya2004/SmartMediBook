@@ -143,15 +143,18 @@ VITE_AI_URL=http://localhost:8000
 ## 📚 Subject Details
 
 Class: BE (ECS) Div A - 2025-2026
-Subject: Major Project 
-Project Type: Major Project
 
----
+Subject: Major Project 
+
 
 ## 📖 References
 
 OpenAI API Documentation - https://platform.openai.com/docs
+
 FastAPI Documentation - https://fastapi.tiangolo.com
+
 React Documentation - https://reactjs.org
+
 MongoDB Atlas Documentation - https://docs.atlas.mongodb.com
+
 Render Deployment Guide - https://render.com/docs
