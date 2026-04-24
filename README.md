@@ -134,17 +134,25 @@ Appointment Booking takes 1.5-2 seconds using OpenAI with tools. Cancellation ta
 ## 🔒 Environment Variables
 
 **Backend .env:**
+
 PORT=3000
+
 MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/hospital
+
 JWT_SECRET=your_jwt_secret_key
 
 **AI Server .env:**
+
 OPENAI_API_KEY=sk-proj-your-actual-key-here
+
 BACKEND_API_URL=http://localhost:3000/api
+
 AI_PORT=8000
 
 **Frontend .env:**
+
 VITE_API_URL=http://localhost:3000/api
+
 VITE_AI_URL=http://localhost:8000
 
 ---
