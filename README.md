@@ -34,40 +34,67 @@ Frontend uses React, Tailwind CSS, DaisyUI, and Vite. Backend uses Node.js, Expr
 **Prerequisites:** Node.js v18 or higher, Python 3.11 or higher, MongoDB local or Atlas account, and OpenAI API key.
 
 **Step 1 - Clone the Repository:**
+
 git clone https://github.com/Nadankar/Smartmedibook.git
+
 cd Smartmedibook
 
 **Step 2 - Backend Setup:**
+
 cd backend
+
 npm install
+
 cp .env.example .env
+
 Update .env with your MongoDB URI and JWT secret
+
 npm run dev
+
 Backend runs on http://localhost:3000
 
 **Step 3 - AI Server Setup:**
+
 cd AI
+
 python -m venv venv
+
 Windows: venv\Scripts\activate
+
 Mac/Linux: source venv/bin/activate
+
 pip install -r requirements.txt
+
 cp .env.example .env
+
 Add your OPENAI_API_KEY to .env
+
 python main.py
+
 AI Server runs on http://localhost:8000
 
 **Step 4 - Frontend Setup:**
+
 cd frontend
+
 npm install
+
 cp .env.example .env
+
 Add VITE_API_URL and VITE_AI_URL
+
 npm run dev
+
 Frontend runs on http://localhost:5173
 
 **Step 5 - Access the Application:**
+
 Frontend: http://localhost:5173
+
 Backend API: http://localhost:3000
+
 AI Server: http://localhost:8000
+
 API Documentation: http://localhost:8000/docs
 
 ---
@@ -75,17 +102,25 @@ API Documentation: http://localhost:8000/docs
 ## 💡 Example Usage
 
 **Patient Booking:**
+
 User says: "Book appointment with Dr. Riya Sharma on April 20th at 2pm for chest pain"
+
 AI responds: "Your appointment with Dr. Riya Sharma has been successfully booked for 2026-04-20 at 14:00."
 
 **Patient Cancellation:**
+
 User says: "Cancel my appointment with Dr. Riya Sharma"
+
 AI responds: "Your appointment has been cancelled successfully."
 
 **Doctor Cancellation:**
+
 Doctor says: "Cancel Myra Fernandes's appointment"
+
 AI asks: "Please provide cancellation reason"
+
 Doctor says: "Doctor unavailable"
+
 AI responds: "The appointment has been cancelled and the patient has been notified."
 
 ---
