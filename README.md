@@ -146,6 +146,8 @@ Class: BE (ECS) Div A - 2025-2026
 
 Subject: Major Project 
 
+---
+
 
 ## 📖 References
 
